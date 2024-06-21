@@ -14,5 +14,5 @@ Useful for running timing-critical processes such as a window manager or an audi
 In order for the wrapper to not require `sudo` for setting the scheduler policy, the executable can be granted `CAP_SYS_NICE` capability:
 
 ```
-sudo setcap 'cap_sys_nice=eip' <path-to-sched_run>
+sudo setcap 'cap_sys_nice=ep' <path-to-sched_run>
 ```
